@@ -1,6 +1,8 @@
 import React from "react";
 import { COURAGE } from "../shared/qCourage";
 import { Quote } from "./QuoteComponent";
+import Home from './HomeComponent'
+
 
 class Main extends React.Component{
   constructor(props) {
@@ -11,7 +13,8 @@ class Main extends React.Component{
     }
     render() {
         return (
-            <Quote quotes={this.state.courageQuotes} />
+            <Home />
+            //<Quote quotes={this.state.courageQuotes} />
         )
     }
 }
