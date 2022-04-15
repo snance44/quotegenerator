@@ -3,16 +3,54 @@ body {
   font-family: 'Inconsolata', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #857c8d;
+  background-color: #665F6D;
 }
 .centered {
   position: fixed;
   top: 33%;
-  left: 50%;
+  left: 43%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.quote{
+  flex-direction: row;
+}
+.unstyledlink{
+  text-decoration: none;
+  color:black;
+}
+.buttonnav{
+  background-color: #18435A;
+}
+.buttonnav:onhover{
+  background-color: #123040;
+}
+
+.discouraged{
+  background-color: #8FCB9B;
+  color: black;
+}
+.joyful{
+  background-color: #FAC748;
+  color: black;
+}
+.angry{
+  background-color: #61304B;
+  color: white;
+}
+.disappointed{
+  background-color: #7EBDC3;
+  color: black;
+}
+.fearful{
+  background-color: #7EBDC3;
+  color: black;
+}
+.thoughtful{
+  background-color: #97F9F9;
+  color: black;
 }

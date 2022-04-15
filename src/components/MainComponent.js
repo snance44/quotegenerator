@@ -1,20 +1,24 @@
 import React from "react";
-import { COURAGE } from "../shared/qCourage";
-import { Quote } from "./QuoteComponent";
+import { DiscouragedComponent } from "./DiscouragedComponent";
+import { AngryComponent } from './AngryComponent';
 import Home from './HomeComponent'
+import { BrowserRouter as Router, Routes, Route, Redirect } from 'react-router-dom';
 
 
 class Main extends React.Component{
-  constructor(props) {
-    super(props);
-        this.state = {
-            courageQuotes : COURAGE
-        };
-    }
+  
     render() {
         return (
-            <Home />
-            //<Quote quotes={this.state.courageQuotes} />
+            <Router>
+                <div>
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/discouragedquotes" element={<DiscouragedComponent/>} />
+                        <Route path="/angryquotes" element={<AngryComponent/>} />
+                        <Route path="*" element={<Home />} />
+                    </Routes>
+                </div>
+            </Router>
         )
     }
 }
