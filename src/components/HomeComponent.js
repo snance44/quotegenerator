@@ -11,8 +11,8 @@ function Home(props) {
                     <h1>I am feeling&nbsp;
                 
                         <ButtonDropdown
-                                isOpen
-                                toggle={function noRefCheck(){}}
+                            
+                                isOpen toggle={function noRefCheck(){}}
                             >
                     
                             <DropdownToggle caret>
@@ -20,10 +20,10 @@ function Home(props) {
                             </DropdownToggle>
                                 <DropdownMenu>
                                     <DropdownItem>
-                                        <h2><Link className="unstyledlink" to="/discouragedquotes" >disappointed.</Link></h2>
+                                        <h2><Link className="unstyledlink" to="/disappointedquotes" >disappointed.</Link></h2>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <h2>fearful.</h2>
+                                        <h2><Link className="unstyledlink" to="/fearfulquotes" >fearful.</Link></h2>
                                     </DropdownItem>
                                     <DropdownItem>
                                         <h2><Link className="unstyledlink" to="/discouragedquotes" >discouraged.</Link></h2>
@@ -32,10 +32,10 @@ function Home(props) {
                                         <h2><Link className="unstyledlink" to="/angryquotes" >angry.</Link></h2>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <h2>thoughtful.</h2>
+                                        <h2><Link className="unstyledlink" to="/thoughtfulquotes" >thoughtful.</Link></h2>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <h2>joyful.</h2>
+                                        <h2><Link className="unstyledlink" to="/joyfulquotes" >joyful.</Link></h2>
                                     </DropdownItem>
                                 </DropdownMenu>
                         </ButtonDropdown>
