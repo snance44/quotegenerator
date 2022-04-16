@@ -21,18 +21,18 @@ export const DISAPPOINTEDQUOTES = [
     },
     {
     id: 4,
-    text: "",
-    author: "",
+    text: `Prefectionism is very addictive because it is very seductive. It's so great to think, "There's a way I can do things where I can never be held in judgement by other people, that I can totally escape criticism. But it doesn't work. `,
+    author: "Brene Brown",
     },
     {
     id: 5,
-    text: "",
-    author: "",
+        text: "I am not afraid of storms, for I am learning how to sail my ship.",
+    author: "Louisa M. Alcott",
     },
     {
     id: 6,
-    text: "",
-    author: "",
-    },
-    
+    text: "Mental pain is less dramatic than physical pain, but it is more common and also more hard to bear. The frequent attempt to conceal mental pain increases the burden: it is easier to say ‘My tooth is aching’ than to say ‘My heart is broken.’",
+    author: "C.S. Lewis",
+    color: ""
+  },
 ]

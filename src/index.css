@@ -26,16 +26,23 @@ code {
 .buttonnav{
   background-color: #18435A;
 }
-.buttonnav:onhover{
-  background-color: #123040;
+.buttonnav:hover{
+  background-color: #091820;
 }
+
+.footer{ 
+     position: fixed;     
+     text-align: center;    
+     bottom: 0px; 
+     width: 100%;
+ }  
 
 .discouraged{
   background-color: #8FCB9B;
   color: black;
 }
 .joyful{
-  background-color: #FAC748;
+  background-color: #E5D352;
   color: black;
 }
 .angry{

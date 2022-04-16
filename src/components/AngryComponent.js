@@ -16,7 +16,7 @@ export class AngryComponent extends React.Component {
             <div className="container p-5">
                 <div className="row m-5 p-3">
                     <div className="col-6-auto p5">
-                        <Card body className='angry'>
+                        <Card body className='angry shadow-lg'>
                             <QuoteCard quotes={this.state.angryQuotes} />
                             <div className='row'>
                                 <div className='col'>

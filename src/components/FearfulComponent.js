@@ -16,7 +16,7 @@ export class FearfulComponent extends React.Component {
             <div className="container p-5">
                 <div className="row m-5 p-3">
                     <div className="col-6-auto p5">
-                        <Card body className='fearful'>
+                        <Card body className='fearful shadow-lg'>
                             <QuoteCard quotes={this.state.fearfulQuotes} />
                             <div className='row'>
                                 <div className='col'>

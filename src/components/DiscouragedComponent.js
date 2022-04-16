@@ -16,7 +16,7 @@ export class DiscouragedComponent extends React.Component {
             <div className="container p-5">
                 <div className="row m-5 p-3">
                     <div className="col-6-auto p5">
-                        <Card body className='discouraged'>
+                        <Card body className='discouraged shadow-lg'>
                             <QuoteCard quotes={this.state.discourageQuotes} />
                             <div className='row'>
                                 <div className='col'>

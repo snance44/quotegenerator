@@ -3,21 +3,33 @@ import { ButtonDropdown, DropdownMenu, DropdownItem, DropdownToggle } from 'reac
 import { Link } from 'react-router-dom';
 
 
-function Home(props) {
-    return (
-        <div className="container-fluid">
-            <div className='row m-5 centered'>
-                <div className='col text-light'>
-                    <h1>I am feeling&nbsp;
+export default class Home extends React.Component {
+    constructor(props) {
+        super(props);
+        this.toggle = this.toggle.bind(this);
+        this.state = {
+            dropdownOpen: false
+        };
+    }
+
+    toggle() {
+        this.setState(prevState => ({ dropdownOpen: !prevState.dropdownOpen }));
+    }
+    render() {
+        return (
+            <div className="container-fluid">
+                <div className='row m-5 centered'>
+                    <div className='col text-light'>
+                        <h1>I am feeling&nbsp;
                 
-                        <ButtonDropdown
+                            <ButtonDropdown
                             
-                                isOpen toggle={function noRefCheck(){}}
+                                isOpen={this.state.dropdownOpen} toggle={this.toggle}
                             >
                     
-                            <DropdownToggle caret>
-                            ...
-                            </DropdownToggle>
+                                <DropdownToggle caret>
+                                    ...
+                                </DropdownToggle>
                                 <DropdownMenu>
                                     <DropdownItem>
                                         <h2><Link className="unstyledlink" to="/disappointedquotes" >disappointed.</Link></h2>
@@ -38,15 +50,14 @@ function Home(props) {
                                         <h2><Link className="unstyledlink" to="/joyfulquotes" >joyful.</Link></h2>
                                     </DropdownItem>
                                 </DropdownMenu>
-                        </ButtonDropdown>
-                    </h1>
+                            </ButtonDropdown>
+                        </h1>
+                    </div>
                 </div>
             </div>
-        </div>
 
            
         
-    )
+        )
+    }
 }
-
-export default Home;
