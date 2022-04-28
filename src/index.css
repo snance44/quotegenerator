@@ -8,7 +8,7 @@ body {
 .centered {
   position: fixed;
   top: 33%;
-  left: 43%;
+  left: 47%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }

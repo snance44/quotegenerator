@@ -1,6 +1,7 @@
 import React from 'react';
 import { ButtonDropdown, DropdownMenu, DropdownItem, DropdownToggle } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import { Footer } from './FooterComponent';
 
 
 export default class Home extends React.Component {
@@ -17,11 +18,11 @@ export default class Home extends React.Component {
     }
     render() {
         return (
-            <div className="container-fluid">
-                <div className='row m-5 centered'>
+            <div className="container-fluid ">
+                <div className='row m-md-5 centered'>
                     <div className='col text-light'>
-                        <h1>I am feeling&nbsp;
-                
+                        <h1 className='text-center text-nowrap'>
+                            I am feeling&nbsp;
                             <ButtonDropdown
                             
                                 isOpen={this.state.dropdownOpen} toggle={this.toggle}
@@ -54,8 +55,9 @@ export default class Home extends React.Component {
                         </h1>
                     </div>
                 </div>
+                <Footer />
             </div>
-
+            
            
         
         )

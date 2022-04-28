@@ -29,7 +29,6 @@ class Main extends React.Component{
                         </Routes>
                     </div>
                 </Router>
-                <Footer />
             </div>
         )
     }
