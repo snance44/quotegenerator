@@ -1,5 +1,5 @@
 {
-  "homepage": "https://snance44.github.io/quotegenerator/",
+  "homepage": "https://snance44.github.io/quotegenerator",
   "name": "quote",
   
   "version": "0.1.0",
@@ -48,7 +48,7 @@
   
   "scripts": {
   "predeploy":"npm run build",
-  "deploy":"gh-pages d-build",
+  "deploy":"gh-pages -d build",
     
   "start": "react-scripts start",
   

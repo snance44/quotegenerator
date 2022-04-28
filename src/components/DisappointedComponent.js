@@ -20,7 +20,7 @@ export class DisappointedComponent extends React.Component {
                             <QuoteCard quotes={this.state.disappointedQuotes} />
                             <div className='row'>
                                 <div className='col'>
-                                    <Link to="/home"><Button size="lg" className="m-3 buttonnav">Generate a different type of quote</Button></Link>
+                                    <Link to="/"><Button size="lg" className="m-3 buttonnav">Generate a different type of quote</Button></Link>
                                     <Link to="/disappointedquotes" onClick={this.forceUpdate}><Button size="lg" className="m-3 buttonnav">I'd like another one like this</Button></Link>
                                 </div>
                             </div>
