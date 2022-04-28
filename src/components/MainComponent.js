@@ -18,13 +18,13 @@ class Main extends React.Component{
                 <Router>
                     <div>
                         <Routes>
-                            <Route path="/" element={<Home />} />
-                            <Route path="/discouragedquotes" element={<DiscouragedComponent/>} />
-                            <Route path="/angryquotes" element={<AngryComponent />} />
-                            <Route path="/disappointedquotes" element={<DisappointedComponent />} />
-                            <Route path="/joyfulquotes" element={<JoyfulComponent />} />
-                            <Route path="/fearfulquotes" element={<FearfulComponent />} />
-                            <Route path="/thoughtfulquotes" element={<ThoughtfulComponent />} />
+                            <Route path="/quotegenerator" element={<Home />} />
+                            <Route path="/quotegenerator/discouragedquotes" element={<DiscouragedComponent/>} />
+                            <Route path="/quotegenerator/angryquotes" element={<AngryComponent />} />
+                            <Route path="/quotegenerator/disappointedquotes" element={<DisappointedComponent />} />
+                            <Route path="/quotegenerator/joyfulquotes" element={<JoyfulComponent />} />
+                            <Route path="/quotegenerator/fearfulquotes" element={<FearfulComponent />} />
+                            <Route path="/quotegenerator/thoughtfulquotes" element={<ThoughtfulComponent />} />
                             <Route path="*" element={<Home />} />
                         </Routes>
                     </div>

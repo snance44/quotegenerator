@@ -33,22 +33,22 @@ export default class Home extends React.Component {
                                 </DropdownToggle>
                                 <DropdownMenu>
                                     <DropdownItem>
-                                        <h2><Link className="unstyledlink" to="/disappointedquotes" >disappointed.</Link></h2>
+                                        <h2><Link className="unstyledlink" to="/quotegenerator/disappointedquotes" >disappointed.</Link></h2>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <h2><Link className="unstyledlink" to="/fearfulquotes" >fearful.</Link></h2>
+                                        <h2><Link className="unstyledlink" to="/quotegenerator/fearfulquotes" >fearful.</Link></h2>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <h2><Link className="unstyledlink" to="/discouragedquotes" >discouraged.</Link></h2>
+                                        <h2><Link className="unstyledlink" to="/quotegenerator/discouragedquotes" >discouraged.</Link></h2>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <h2><Link className="unstyledlink" to="/angryquotes" >angry.</Link></h2>
+                                        <h2><Link className="unstyledlink" to="/quotegenerator/angryquotes" >angry.</Link></h2>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <h2><Link className="unstyledlink" to="/thoughtfulquotes" >thoughtful.</Link></h2>
+                                        <h2><Link className="unstyledlink" to="/quotegenerator/thoughtfulquotes" >thoughtful.</Link></h2>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <h2><Link className="unstyledlink" to="/joyfulquotes" >joyful.</Link></h2>
+                                        <h2><Link className="unstyledlink" to="/quotegenerator/joyfulquotes" >joyful.</Link></h2>
                                     </DropdownItem>
                                 </DropdownMenu>
                             </ButtonDropdown>

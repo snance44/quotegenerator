@@ -20,8 +20,8 @@ export class ThoughtfulComponent extends React.Component {
                             <QuoteCard quotes={this.state.thoughtfulQuotes} />
                                 <div className='row'>
                                     <div className='col'>
-                                        <Link to="/"><Button size="lg" className="m-3 buttonnav">Generate a different type of quote</Button></Link>
-                                        <Link to="/thoughtfulquotes" onClick={this.forceUpdate}><Button size="lg" className="m-3 buttonnav">I'd like another one like this</Button></Link>
+                                        <Link to="/quotegenerator"><Button size="lg" className="m-3 buttonnav">Generate a different type of quote</Button></Link>
+                                        <Link to="/quotegenerator/thoughtfulquotes" onClick={this.forceUpdate}><Button size="lg" className="m-3 buttonnav">I'd like another one like this</Button></Link>
                                 </div>
                             </div>
                         </Card>
