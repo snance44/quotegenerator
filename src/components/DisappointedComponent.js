@@ -4,6 +4,10 @@ import { Card , Button } from 'reactstrap';
 import { DISAPPOINTEDQUOTES } from "../shared/disappointed";
 import { Link } from 'react-router-dom';
 
+function refreshPage() {
+    window.location.reload(false);
+  }
+
 export class DisappointedComponent extends React.Component {
     constructor(props) {
     super(props);
@@ -21,7 +25,7 @@ export class DisappointedComponent extends React.Component {
                             <div className='row'>
                                 <div className='col'>
                                     <Link to="/quotegenerator"><Button size="lg" className="m-3 buttonnav">Generate a different type of quote</Button></Link>
-                                    <Link to="/quotegenerator/disappointedquotes" onClick={this.forceUpdate}><Button size="lg" className="m-3 buttonnav">I'd like another one like this</Button></Link>
+                                    <Link to="/quotegenerator/disappointedquotes" onClick={refreshPage}><Button size="lg" className="m-3 buttonnav">I'd like another one like this</Button></Link>
                                 </div>
                             </div>
                         </Card>
