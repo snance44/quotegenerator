@@ -25,7 +25,7 @@ export class DiscouragedComponent extends React.Component {
                             <div className='row'>
                                 <div className='col'>
                                     <Link to="/quotegenerator"><Button size="lg" className="m-3 buttonnav">Generate a different type of quote</Button></Link>
-                                    <Link to="/quotegenerator/discouragedquotes" onClick={refreshPage}><Button size="lg" className="m-3 buttonnav">I'd like another one like this</Button></Link>
+                                    <Button size="lg" className="m-3 buttonnav" onClick={refreshPage}>I'd like another one like this</Button>
                                 </div>
                             </div>
                         </Card>
